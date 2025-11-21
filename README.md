@@ -1,6 +1,6 @@
 # 🚀 Chat App (Vue.js + Socket.io)
 
-Aplikasi chat realtime sederhana dengan fitur join menggunakan **nama** dan **foto profil**, serta room chat realtime.
+Aplikasi chat realtime sederhana dengan fitur join menggunakan **nama** , serta room chat realtime.
 
 ## 📸 Preview
 
