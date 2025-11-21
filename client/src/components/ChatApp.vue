@@ -43,7 +43,10 @@ export default {
             // console.log("User:", this.currenUser)
             this.joined = true
 
-            this.socketInstance = io("http://localhost:3000")
+            this.socketInstance = io("https://chat-app-vuejs-socketio-production.up.railway.app", {
+                transports: ["websocket"]
+            })
+
 
             this.socketInstance.on("message:received", (data) => {
                 console.log("Client received broadcast:", data)
